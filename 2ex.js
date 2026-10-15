@@ -5,10 +5,11 @@
     const index = Math.floor(Math.random() * characters.length)
     const symbol = characters[index];
     key += symbol;
+    console.log (key);
     }
 
 
     return key;
     };
 
-    generateKey(12, 'asdfghjkl');
+    generateKey(12, 'asdfghjkl;');
